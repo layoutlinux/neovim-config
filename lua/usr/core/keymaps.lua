@@ -18,7 +18,7 @@ vim.keymap.set("n", "<leader>p", '"+p',  {noremap = true, silent = true, desc = 
 vim.keymap.set("v", "<leader>p", '"+p',  {noremap = true, silent = true, desc = "paste on visual mode"})
 
 -- Visual Block --
-vim.keymap.set("v", "V", "^vg_",  {noremap = true, silent = true, desc = "change to v-line"})
+vim.keymap.set("v", "V", "^vg_",  {noremap = true, silent = true, desc = "mode Visual Block"})
 
 -- Tabs
 vim.keymap.set("n", "<C-t>", ":tabe<CR>", {noremap = true, silent = true, desc = "open tab page"})
