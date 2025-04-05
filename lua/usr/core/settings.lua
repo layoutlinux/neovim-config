@@ -5,9 +5,6 @@ local cmd = vim.cmd
 local g = vim.g
 local opt = vim.opt
 
-g.mapleader = ' '
-g.maplocalleader = ' '
-
 -- Nerd font installed and selected in terminal
 g.have_nerd_font = true
 
